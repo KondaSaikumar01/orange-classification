@@ -1,0 +1,14 @@
+{
+    "project": "Orange Classification",
+    "selected_model": "SVM",
+    "features": [
+        "CIELAB color histograms",
+        "HSV color histograms",
+        "LBP texture"
+    ],
+    "test_accuracy": 0.98989898989899,
+    "test_macro_precision": 0.9891304347826086,
+    "test_macro_recall": 0.9886363636363636,
+    "test_macro_f1": 0.9886304909560724,
+    "test_images": 99
+}

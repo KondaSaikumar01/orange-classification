@@ -1,0 +1,32 @@
+ORANGE CLASSIFICATION PROJECT — DEMO SCRIPT
+
+1. Introduction
+Explain that the project classifies images into blackspot, canker,
+fresh, and grenning.
+
+2. Dataset and EDA
+Show the folder structure, class distribution, example images,
+and data-quality checks. The checks found zero corrupted images
+and zero exact duplicate files.
+
+3. SVM model
+Explain CIELAB and HSV color histograms, LBP texture features,
+standardization, and the RBF SVM classifier.
+
+4. MobileNetV2
+Explain transfer learning, ImageNet weights, the new output layer,
+and the training/validation curves.
+
+5. Model comparison
+Show the test metrics and confusion matrices. Report the observed
+test results: SVM accuracy 98.99%, macro F1 98.86%; MobileNetV2
+accuracy 90.91%, macro F1 90.18%.
+
+6. Limitations
+The test set contains 99 images. Discuss dataset size, lighting
+variation, and the need for external validation. Do not claim
+unmeasured production latency or guaranteed real-world accuracy.
+
+7. Conclusion
+SVM performed better on this test set. Show the saved models,
+reports, and notebook.
